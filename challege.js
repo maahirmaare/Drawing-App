@@ -1,3 +1,4 @@
+console.log('versio10');
 document.addEventListener("DOMContentLoaded", function() {
     // Canvas setup
     const canvas = document.getElementById("drawingCanvas");
