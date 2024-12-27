@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somali-Inspired Drawing App</title>
+    <link rel="stylesheet" href="challenge.css">
+    <!-- Include a Google Font for a unique feel -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kufam&display=swap">
+</head>
+<body>
+    <!-- Header with Somali-Inspired Design -->
+    <header id="header">
+        <h1>Ku Dhiirigeli Aragaaga - Drawing App</h1>
+    </header>
+
+    <!-- Tool Container -->
+    <section class="tool-container">
+        <!-- Color Picker -->
+        <div class="tool">
+            <label for="colorPicker">Midabka: </label>
+            <input type="color" id="colorPicker" value="#0066cc">
+        </div>
+
+        <!-- Brush Size Slider -->
+        <div class="tool">
+            <label for="sizeSlider">Cabbirka Qalinkayga:</label>
+            <input type="range" id="sizeSlider" min="3" max="30" value="5">
+            <div id="sizePreview"></div>
+        </div>
+
+        <!-- Erase Button -->
+        <button id="erase" class="button">Masax</button>
+
+        <!-- Reset Button -->
+        <button id="reset" class="button">Dib u Bilaab</button>
+
+        <!-- Save Button -->
+        <button id="save" class="button">Keydi Sawirka</button>
+    </section>
+
+    <!-- Drawing Canvas Area -->
+    <div id="canvasContainer">
+        <canvas id="drawingCanvas" width="600" height="400"></canvas>
+    </div>
+
+    <!-- Somali Decorative Footer -->
+    <footer id="footer">
+        <p>Ku Samee Sawir Gacantaada</p>
+        <p>&#9733; Inspired by Somali Heritage &#9733;</p>
+    </footer>
+
+    <script src="challege.js"></script>
+</body>
+</html>
